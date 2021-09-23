@@ -6,4 +6,17 @@
 //
 
 import Foundation
-saasdad
+import Combine
+
+class ViewModel {
+    
+    func fetchFruits() -> Future<[String], Error> {
+        
+        return Future { promisse in
+            DispatchQueue.main.asyncAfter(deadline: .now()+2) {
+                promisse(.success(["banana","uva","pera","abacaxi","jabuticaba"]))
+            }
+        }
+        
+    }
+}

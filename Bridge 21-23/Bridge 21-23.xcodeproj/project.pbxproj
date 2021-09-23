@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF8575DF26FCEF6D004DD347 /* ProtocolDelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8575DE26FCEF6D004DD347 /* ProtocolDelegateViewController.swift */; };
+		DF8575E126FCEF91004DD347 /* ProtocolDelegate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8575E026FCEF91004DD347 /* ProtocolDelegate.storyboard */; };
+		DFB61EC626FB9E8300EA1240 /* Vision.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB61EC526FB9E8300EA1240 /* Vision.swift */; };
+		DFB61EC826FBA15B00EA1240 /* VisionStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB61EC726FBA15B00EA1240 /* VisionStoryboard.storyboard */; };
 		DFBFAC5F26F919C8004644B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBFAC5E26F919C8004644B4 /* AppDelegate.swift */; };
 		DFBFAC6126F919C8004644B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBFAC6026F919C8004644B4 /* SceneDelegate.swift */; };
 		DFBFAC6326F919C8004644B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBFAC6226F919C8004644B4 /* ViewController.swift */; };
@@ -36,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF8575DE26FCEF6D004DD347 /* ProtocolDelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolDelegateViewController.swift; sourceTree = "<group>"; };
+		DF8575E026FCEF91004DD347 /* ProtocolDelegate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProtocolDelegate.storyboard; sourceTree = "<group>"; };
+		DFB61EC526FB9E8300EA1240 /* Vision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vision.swift; sourceTree = "<group>"; };
+		DFB61EC726FBA15B00EA1240 /* VisionStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VisionStoryboard.storyboard; sourceTree = "<group>"; };
+		DFB61EC926FBADBF00EA1240 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFBFAC5B26F919C8004644B4 /* Bridge 21-23.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bridge 21-23.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBFAC5E26F919C8004644B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFBFAC6026F919C8004644B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +52,6 @@
 		DFBFAC6526F919C8004644B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFBFAC6726F919CA004644B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFBFAC6A26F919CA004644B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DFBFAC6C26F919CA004644B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFBFAC7126F919CB004644B4 /* Bridge 21-23Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bridge 21-23Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBFAC7526F919CB004644B4 /* Bridge_21_23Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge_21_23Tests.swift; sourceTree = "<group>"; };
 		DFBFAC7726F919CB004644B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +86,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF8575DC26FCEE87004DD347 /* Part2 */ = {
+			isa = PBXGroup;
+			children = (
+				DF8575DD26FCEE92004DD347 /* New Group */,
+			);
+			name = Part2;
+			sourceTree = "<group>";
+		};
+		DF8575DD26FCEE92004DD347 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				DF8575DE26FCEF6D004DD347 /* ProtocolDelegateViewController.swift */,
+				DF8575E026FCEF91004DD347 /* ProtocolDelegate.storyboard */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		DFB61EC126FB9E3E00EA1240 /* Part1 */ = {
+			isa = PBXGroup;
+			children = (
+				DFBFAC9126F91AB5004644B4 /* View */,
+				DFBFAC9226F91ACB004644B4 /* ViewModel */,
+			);
+			name = Part1;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DFB61EC326FB9E6700EA1240 /* Part3 */ = {
+			isa = PBXGroup;
+			children = (
+				DFB61EC426FB9E7000EA1240 /* View */,
+			);
+			name = Part3;
+			sourceTree = "<group>";
+		};
+		DFB61EC426FB9E7000EA1240 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DFB61EC526FB9E8300EA1240 /* Vision.swift */,
+				DFB61EC726FBA15B00EA1240 /* VisionStoryboard.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DFBFAC5226F919C8004644B4 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +153,7 @@
 		DFBFAC5D26F919C8004644B4 /* Bridge 21-23 */ = {
 			isa = PBXGroup;
 			children = (
+				DFB61EC926FBADBF00EA1240 /* Info.plist */,
 				DFBFAC9026F91A0C004644B4 /* Content */,
 				DFBFAC8F26F919F5004644B4 /* App */,
 				DFBFAC8E26F919EE004644B4 /* Scenes */,
@@ -129,9 +182,9 @@
 		DFBFAC8E26F919EE004644B4 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				DFBFAC9326F91AD5004644B4 /* Model */,
-				DFBFAC9226F91ACB004644B4 /* ViewModel */,
-				DFBFAC9126F91AB5004644B4 /* View */,
+				DF8575DC26FCEE87004DD347 /* Part2 */,
+				DFB61EC326FB9E6700EA1240 /* Part3 */,
+				DFB61EC126FB9E3E00EA1240 /* Part1 */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -139,7 +192,6 @@
 		DFBFAC8F26F919F5004644B4 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				DFBFAC6C26F919CA004644B4 /* Info.plist */,
 				DFBFAC5E26F919C8004644B4 /* AppDelegate.swift */,
 				DFBFAC6026F919C8004644B4 /* SceneDelegate.swift */,
 				DFBFAC6926F919CA004644B4 /* LaunchScreen.storyboard */,
@@ -169,14 +221,7 @@
 			children = (
 				DFBFAC9426FA4979004644B4 /* VIewModel.swift */,
 			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		DFBFAC9326F91AD5004644B4 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,8 +328,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFBFAC6B26F919CA004644B4 /* LaunchScreen.storyboard in Resources */,
+				DF8575E126FCEF91004DD347 /* ProtocolDelegate.storyboard in Resources */,
 				DFBFAC6826F919CA004644B4 /* Assets.xcassets in Resources */,
 				DFBFAC6626F919C8004644B4 /* Main.storyboard in Resources */,
+				DFB61EC826FBA15B00EA1240 /* VisionStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +357,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFBFAC6326F919C8004644B4 /* ViewController.swift in Sources */,
+				DF8575DF26FCEF6D004DD347 /* ProtocolDelegateViewController.swift in Sources */,
 				DFBFAC9526FA4979004644B4 /* VIewModel.swift in Sources */,
+				DFB61EC626FB9E8300EA1240 /* Vision.swift in Sources */,
 				DFBFAC5F26F919C8004644B4 /* AppDelegate.swift in Sources */,
 				DFBFAC6126F919C8004644B4 /* SceneDelegate.swift in Sources */,
 			);
