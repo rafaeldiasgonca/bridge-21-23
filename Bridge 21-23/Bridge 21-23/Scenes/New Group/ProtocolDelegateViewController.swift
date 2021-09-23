@@ -8,21 +8,36 @@
 import UIKit
 
 
-protocol SendDataProtocol{
-    func sendDataAnotherViewController()
+
+
+class ProtocolDelegateViewController: UIViewController {
+  
+    
+
+    @IBOutlet weak var label: UILabel!
+    
+    @IBOutlet weak var button: UIButton!
+    
+    override func viewDidLoad() {
+        var delegate: SendDataProtocol? = nil
+        super.viewDidLoad()
+       
+       
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+          if segue.identifier == "getDataSegue" {
+              let secondVC: AnotherViewController = segue.destination as! AnotherViewController
+              secondVC.sendaDataProtocolDelegate = self
+          }
+      }
+
 
 }
 
-
-class ProtocolDelegateViewController: UIViewController,SendDataProtocol {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-       
+extension ProtocolDelegateViewController: SendDataProtocol{
+    func sendDataToProtocolDelegateViewController(name: String) {
+        label.text = name
     }
     
-
-  
-
+    
 }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DF8575DF26FCEF6D004DD347 /* ProtocolDelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8575DE26FCEF6D004DD347 /* ProtocolDelegateViewController.swift */; };
 		DF8575E126FCEF91004DD347 /* ProtocolDelegate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8575E026FCEF91004DD347 /* ProtocolDelegate.storyboard */; };
+		DF8575E326FCF4F4004DD347 /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8575E226FCF4F4004DD347 /* AnotherViewController.swift */; };
 		DFB61EC626FB9E8300EA1240 /* Vision.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB61EC526FB9E8300EA1240 /* Vision.swift */; };
 		DFB61EC826FBA15B00EA1240 /* VisionStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB61EC726FBA15B00EA1240 /* VisionStoryboard.storyboard */; };
 		DFBFAC5F26F919C8004644B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBFAC5E26F919C8004644B4 /* AppDelegate.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		DF8575DE26FCEF6D004DD347 /* ProtocolDelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolDelegateViewController.swift; sourceTree = "<group>"; };
 		DF8575E026FCEF91004DD347 /* ProtocolDelegate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProtocolDelegate.storyboard; sourceTree = "<group>"; };
+		DF8575E226FCF4F4004DD347 /* AnotherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherViewController.swift; sourceTree = "<group>"; };
 		DFB61EC526FB9E8300EA1240 /* Vision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vision.swift; sourceTree = "<group>"; };
 		DFB61EC726FBA15B00EA1240 /* VisionStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VisionStoryboard.storyboard; sourceTree = "<group>"; };
 		DFB61EC926FBADBF00EA1240 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				DF8575DE26FCEF6D004DD347 /* ProtocolDelegateViewController.swift */,
 				DF8575E026FCEF91004DD347 /* ProtocolDelegate.storyboard */,
+				DF8575E226FCF4F4004DD347 /* AnotherViewController.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 				DFBFAC6326F919C8004644B4 /* ViewController.swift in Sources */,
 				DF8575DF26FCEF6D004DD347 /* ProtocolDelegateViewController.swift in Sources */,
 				DFBFAC9526FA4979004644B4 /* VIewModel.swift in Sources */,
+				DF8575E326FCF4F4004DD347 /* AnotherViewController.swift in Sources */,
 				DFB61EC626FB9E8300EA1240 /* Vision.swift in Sources */,
 				DFBFAC5F26F919C8004644B4 /* AppDelegate.swift in Sources */,
 				DFBFAC6126F919C8004644B4 /* SceneDelegate.swift in Sources */,
